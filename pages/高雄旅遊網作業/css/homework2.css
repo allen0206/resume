@@ -1,0 +1,194 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+a{
+    text-decoration: none;
+}
+*{
+    box-sizing: border-box;
+}
+.clearfix{
+    clear: both;
+}
+.wrap{
+    max-width: 1024px;
+    margin: 0 auto;
+}
+.header{
+    position: relative;
+    padding-bottom: 140px;
+}
+.form{
+    background-image: url('../img/Hero.png');
+    height: 380px;
+    text-align: center;
+    padding-top: 89px;
+}
+.form h1{
+    font-size: 40px;
+    color: white;
+    margin-bottom: 96px;
+}
+.form select{
+    width: 452px;
+    height: 48px;
+    font-size: 18px;
+    opacity: 0.8;
+}
+.menu{
+    position: absolute;
+    top: 352px;
+    left: 112px;
+    background-color: white;
+    width: 800px;
+    height: 112px;
+    border-radius: 5px;
+    padding-left:26px;
+    padding-top:20px;  
+    border: 1px solid black;
+}
+.menu h2{
+    font-size: 18px;
+    margin-bottom: 14px;
+}
+.menu button{
+    width: 130px;
+    height: 42px;
+    margin-left: 23px;
+    font-size: 20px;
+    border-radius: 5px;
+}
+.btn-1{
+    background: #8A82CC;
+    color: white;
+}
+.btn-2{
+    background: #FFA782;
+    color: white;
+}
+.btn-3{
+    background: #F5D005;
+    color: white;
+}
+.btn-4{
+    background: #559AC8;
+    color: white;
+}
+.line{
+    width: 900px;
+    border: 1px dashed #559AC8;
+    position: absolute;
+    bottom: 0 ;
+    left: 62px;
+}
+.line img{
+    position: absolute;
+    top: -5px;
+    left: 442px;
+    
+}
+.footer{
+    background: #559AC8;
+    height: 90px;
+    text-align: center;
+    padding: 15px 0 ;
+}
+.footer h2{
+    color: white;
+    font-size: 14px;
+    line-height: 30px;
+}
+.footer h2 span{
+    color: #FFD366;
+}
+.content{
+    padding: 40px 20px;
+    margin: 0 auto;
+    text-align: center;
+}
+.content .h2{
+   font-size: 36px;
+   color: #8A82CC;
+   margin: 30px 0;
+}
+.list li{
+    display: inline-block;
+    margin: 0 14px;
+    margin-bottom: 36px; 
+    width: 464px;
+    position: relative;
+    background: whitesmoke;
+    padding-bottom: 20px;
+    box-shadow: 2px 2px 2px 2px gray;
+}
+.list li > img{
+    width: 464px;
+    height: 155px;
+}
+.list li  h2{
+    position: absolute;
+    font-size: 24px;
+    color: white;
+    top:117px;
+    left: 22px;
+}
+.list li  h3{
+    position: absolute;
+    font-size: 16px;
+    color: white;
+    top: 125px;
+    right: 24px;
+}
+.list li p{
+    text-align: left;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.list li p img{
+    margin-right: 10px;
+}
+.list li span{
+    position: absolute;
+    top: 243px;
+    right: 58px;
+}

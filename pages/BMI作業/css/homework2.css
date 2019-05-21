@@ -1,0 +1,242 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+a{
+    text-decoration: none;
+}
+*{
+    box-sizing: border-box;
+}
+.wrap{
+    max-width: 1024px;
+    margin: 0 auto;
+}
+.header{
+    background-color: #424242;
+    height: 300px;
+    position: relative;
+}
+.logo{
+    background-image: url('../img/BMICLogo.png');
+    width: 117px;
+    height: 117px;
+    position: absolute;
+    top:92px;
+    left: 173px;
+}
+form{
+    position: absolute;
+    top: 72px;
+    left: 387px;
+}
+form label{
+    display: block;
+    font-size: 18px;
+    color:#FFD366;
+    margin-bottom: 5px;
+}
+form input{
+    width: 250px;
+    height: 40px;
+    border:solid 1px #FFD366;
+    border-radius: 10px;
+}
+.box{
+    margin-bottom: 20px;
+}
+.btn{
+    width: 120px;
+    height: 120px;
+    background-color: #FFD366;
+    border-radius: 60px;
+    font-size: 24px;
+    position: absolute;
+    top:92px;
+    left: 690px;
+
+}
+.btn-style1{
+    width: 120px;
+    height: 120px;
+    border-radius: 60px;
+    font-size: 24px;
+    position: absolute;
+    top: 92px;
+    left: 690px;
+    background-color: #424242;
+    color: darkcyan;
+    border:solid 5px darkcyan;
+}
+.btn-style2{
+    width: 120px;
+    height: 120px;
+    border-radius: 60px;
+    font-size: 24px;
+    position: absolute;
+    top: 92px;
+    left: 690px;
+    background-color: #424242;
+    color: red;
+    border:solid 5px red;
+}
+.btn-style3{
+    width: 120px;
+    height: 120px;
+    border-radius: 60px;
+    font-size: 24px;
+    position: absolute;
+    top: 92px;
+    left: 690px;
+    background-color: #424242;
+    color: yellow;
+    border:solid 5px yellow;
+}
+.btn-a{
+    display: none;
+}
+.btn-reset1{
+    position: absolute;
+    top: 182px;
+    right: 226.5px;
+    display: block;
+    background-color: darkcyan;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+.btn-reset2{
+    position: absolute;
+    top: 182px;
+    right: 226.5px;
+    display: block;
+    background-color: red;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+.btn-reset3{
+    position: absolute;
+    top: 182px;
+    right: 226.5px;
+    display: block;
+    background-color: yellow;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+a img{
+    position: absolute;
+    top:5.5px;
+    left: 8px;
+}
+p{
+    font-size: 32px;
+    position: absolute;
+    top:137px;
+    right: 131px;
+}
+.color1{
+    color:darkcyan;
+}
+.color2{
+    color:red;
+}
+.color3{
+    color:yellow;
+}
+.content{
+    padding: 50px;
+}
+.content h2{
+    font-size: 24px;
+    color: #424242;
+    text-align: center;
+    margin-bottom: 50px; 
+}
+.list ul{
+    margin: 0 auto;
+    width: 624px;
+}
+.list li{
+    text-align: center;
+    height: 62px;
+    background-color: wheat;
+    /* border: #FFD366 solid 1px; */
+    padding: 19px 0;
+    margin-bottom: 20px;
+    color: #424242;
+}
+.list li span{
+   margin-left: 20px;
+   margin-right: 70px;
+   font-size: 24px;
+}
+.content a{
+    display: block;
+    color: #424242;
+    margin-top: 40px;
+    text-align: center;
+}
+.style-1{
+    border-left: 5px solid darkcyan; 
+}
+.style-2{
+    border-left: 5px solid red; 
+}
+.style-3{
+    border-left: 5px solid yellow; 
+}
+.font-size-s{
+    font-size: 16px !important; 
+}
+.footer{
+    height: 90px;
+    background: #FFD366;
+    padding: 17.5px 0 ;
+}
+.footer-img{
+    width: 55px;
+    height: 55px;
+    background: url('../img/BMICLogo\ 拷貝.png');
+    margin: 0 auto;
+}
